@@ -401,7 +401,7 @@
       "source": [
         "import numpy as np"
       ],
-      "execution_count": null,
+      "execution_count": 2,
       "outputs": []
     },
     {
@@ -421,7 +421,7 @@
       "source": [
         "kanto = np.array([73, 67, 43])"
       ],
-      "execution_count": null,
+      "execution_count": 3,
       "outputs": []
     },
     {
@@ -934,7 +934,7 @@
         "                         [102, 43, 37],\n",
         "                         [69, 96, 70]])"
       ],
-      "execution_count": null,
+      "execution_count": 5,
       "outputs": []
     },
     {
@@ -990,13 +990,16 @@
       "cell_type": "code",
       "metadata": {
         "id": "Q-pwd5knbE8b",
-        "outputId": "502a73a5-ffb7-48a0-e1e5-371f79b84cec"
+        "outputId": "8c1f93d3-f246-4856-be08-6ce0285321ec",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
       "source": [
         "# 2D array (matrix)\n",
         "climate_data.shape"
       ],
-      "execution_count": null,
+      "execution_count": 6,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1005,37 +1008,28 @@
               "(5, 3)"
             ]
           },
-          "metadata": {
-            "tags": []
-          },
-          "execution_count": 32
+          "metadata": {},
+          "execution_count": 6
         }
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "uncD5hRFH4dJ"
+      }
+    },
+    {
       "cell_type": "code",
       "metadata": {
-        "id": "qPJOLPhhbE8e",
-        "outputId": "b56c0418-17a1-43d2-e500-8532da19c62f"
+        "id": "qPJOLPhhbE8e"
       },
       "source": [
-        "weights"
+        "weights=np.array([0.3, 0.2, 0.5])"
       ],
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {
-            "text/plain": [
-              "array([0.3, 0.2, 0.5])"
-            ]
-          },
-          "metadata": {
-            "tags": []
-          },
-          "execution_count": 33
-        }
-      ]
+      "execution_count": 14,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -1076,6 +1070,15 @@
         "    [[15, 16, 17],\n",
         "     [17, 18, 19.5]]])"
       ],
+      "execution_count": 10,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "PpAG3vDNG0C6"
+      },
       "execution_count": null,
       "outputs": []
     },
@@ -1083,12 +1086,15 @@
       "cell_type": "code",
       "metadata": {
         "id": "XFSqHsIibE8o",
-        "outputId": "45e8cc49-db5e-4990-992a-e79ae64d499f"
+        "outputId": "21860000-8c23-4a9e-e07c-7c5c575d6863",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
       "source": [
         "arr3.shape"
       ],
-      "execution_count": null,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1097,10 +1103,8 @@
               "(2, 2, 3)"
             ]
           },
-          "metadata": {
-            "tags": []
-          },
-          "execution_count": 36
+          "metadata": {},
+          "execution_count": 8
         }
       ]
     },
@@ -1117,12 +1121,15 @@
       "cell_type": "code",
       "metadata": {
         "id": "hjh_CdJ9bE8t",
-        "outputId": "c5950701-3ac4-4075-ca43-d4626e7976eb"
+        "outputId": "ab66a51a-5f67-4666-e0fd-62a3b755bfb6",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
       "source": [
         "weights.dtype"
       ],
-      "execution_count": null,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1131,10 +1138,8 @@
               "dtype('float64')"
             ]
           },
-          "metadata": {
-            "tags": []
-          },
-          "execution_count": 37
+          "metadata": {},
+          "execution_count": 17
         }
       ]
     },
@@ -1216,12 +1221,15 @@
       "cell_type": "code",
       "metadata": {
         "id": "EsFFEsi7bE85",
-        "outputId": "68275698-4e80-446f-b7fa-4cafea5e891b"
+        "outputId": "277fe8f5-f576-4c3a-b37b-235adf83081f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
       "source": [
         "np.matmul(climate_data, weights)"
       ],
-      "execution_count": null,
+      "execution_count": 19,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1230,10 +1238,8 @@
               "array([56.8, 76.9, 81.9, 57.7, 74.9])"
             ]
           },
-          "metadata": {
-            "tags": []
-          },
-          "execution_count": 40
+          "metadata": {},
+          "execution_count": 19
         }
       ]
     },
@@ -1241,12 +1247,15 @@
       "cell_type": "code",
       "metadata": {
         "id": "NQOSEedWbE89",
-        "outputId": "d682ece7-5731-4ef1-8249-57d6ee166ade"
+        "outputId": "43e407b1-16b0-4de2-8716-7a7513d3be1c",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
       "source": [
         "climate_data @ weights"
       ],
-      "execution_count": null,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1255,10 +1264,8 @@
               "array([56.8, 76.9, 81.9, 57.7, 74.9])"
             ]
           },
-          "metadata": {
-            "tags": []
-          },
-          "execution_count": 41
+          "metadata": {},
+          "execution_count": 20
         }
       ]
     },
@@ -1301,28 +1308,52 @@
       "cell_type": "code",
       "metadata": {
         "id": "F7e7UN93bE9C",
-        "outputId": "64d0cf51-39ac-46c7-e224-a328bd0ee233"
+        "outputId": "e2bcf48d-a872-4bf9-a7d2-111d0cf09c20",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 408
+        }
       },
       "source": [
         "import urllib.request\n",
         "\n",
         "urllib.request.urlretrieve(\n",
         "    'https://hub.jovian.ml/wp-content/uploads/2020/08/climate.csv',\n",
-        "    'climate.txt')"
+        "    'climate.txt'\n",
+        ")"
       ],
-      "execution_count": null,
+      "execution_count": 2,
       "outputs": [
         {
-          "output_type": "execute_result",
-          "data": {
-            "text/plain": [
-              "('climate.txt', <http.client.HTTPMessage at 0x7fb832740850>)"
-            ]
-          },
-          "metadata": {
-            "tags": []
-          },
-          "execution_count": 42
+          "output_type": "error",
+          "ename": "URLError",
+          "evalue": "<urlopen error [Errno -2] Name or service not known>",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mgaierror\u001b[0m                                  Traceback (most recent call last)",
+            "\u001b[0;32m/usr/lib/python3.12/urllib/request.py\u001b[0m in \u001b[0;36mdo_open\u001b[0;34m(self, http_class, req, **http_conn_args)\u001b[0m\n\u001b[1;32m   1343\u001b[0m             \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1344\u001b[0;31m                 h.request(req.get_method(), req.selector, req.data, headers,\n\u001b[0m\u001b[1;32m   1345\u001b[0m                           encode_chunked=req.has_header('Transfer-encoding'))\n",
+            "\u001b[0;32m/usr/lib/python3.12/http/client.py\u001b[0m in \u001b[0;36mrequest\u001b[0;34m(self, method, url, body, headers, encode_chunked)\u001b[0m\n\u001b[1;32m   1357\u001b[0m         \u001b[0;34m\"\"\"Send a complete request to the server.\"\"\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1358\u001b[0;31m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_send_request\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmethod\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0murl\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mbody\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mheaders\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mencode_chunked\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1359\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/http/client.py\u001b[0m in \u001b[0;36m_send_request\u001b[0;34m(self, method, url, body, headers, encode_chunked)\u001b[0m\n\u001b[1;32m   1403\u001b[0m             \u001b[0mbody\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0m_encode\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mbody\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'body'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1404\u001b[0;31m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mendheaders\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mbody\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mencode_chunked\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mencode_chunked\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1405\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/http/client.py\u001b[0m in \u001b[0;36mendheaders\u001b[0;34m(self, message_body, encode_chunked)\u001b[0m\n\u001b[1;32m   1352\u001b[0m             \u001b[0;32mraise\u001b[0m \u001b[0mCannotSendHeader\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1353\u001b[0;31m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_send_output\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmessage_body\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mencode_chunked\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mencode_chunked\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1354\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/http/client.py\u001b[0m in \u001b[0;36m_send_output\u001b[0;34m(self, message_body, encode_chunked)\u001b[0m\n\u001b[1;32m   1112\u001b[0m         \u001b[0;32mdel\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_buffer\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1113\u001b[0;31m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0msend\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmsg\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1114\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/http/client.py\u001b[0m in \u001b[0;36msend\u001b[0;34m(self, data)\u001b[0m\n\u001b[1;32m   1056\u001b[0m             \u001b[0;32mif\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mauto_open\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1057\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mconnect\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1058\u001b[0m             \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/http/client.py\u001b[0m in \u001b[0;36mconnect\u001b[0;34m(self)\u001b[0m\n\u001b[1;32m   1491\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1492\u001b[0;31m             \u001b[0msuper\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mconnect\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1493\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/http/client.py\u001b[0m in \u001b[0;36mconnect\u001b[0;34m(self)\u001b[0m\n\u001b[1;32m   1022\u001b[0m         \u001b[0msys\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0maudit\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"http.client.connect\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mhost\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mport\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1023\u001b[0;31m         self.sock = self._create_connection(\n\u001b[0m\u001b[1;32m   1024\u001b[0m             (self.host,self.port), self.timeout, self.source_address)\n",
+            "\u001b[0;32m/usr/lib/python3.12/socket.py\u001b[0m in \u001b[0;36mcreate_connection\u001b[0;34m(address, timeout, source_address, all_errors)\u001b[0m\n\u001b[1;32m    840\u001b[0m     \u001b[0mexceptions\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 841\u001b[0;31m     \u001b[0;32mfor\u001b[0m \u001b[0mres\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mgetaddrinfo\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mhost\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mport\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m0\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mSOCK_STREAM\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    842\u001b[0m         \u001b[0maf\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0msocktype\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mproto\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcanonname\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0msa\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mres\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/socket.py\u001b[0m in \u001b[0;36mgetaddrinfo\u001b[0;34m(host, port, family, type, proto, flags)\u001b[0m\n\u001b[1;32m    977\u001b[0m     \u001b[0maddrlist\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 978\u001b[0;31m     \u001b[0;32mfor\u001b[0m \u001b[0mres\u001b[0m \u001b[0;32min\u001b[0m \u001b[0m_socket\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mgetaddrinfo\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mhost\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mport\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfamily\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mproto\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mflags\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    979\u001b[0m         \u001b[0maf\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0msocktype\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mproto\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcanonname\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0msa\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mres\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mgaierror\u001b[0m: [Errno -2] Name or service not known",
+            "\nDuring handling of the above exception, another exception occurred:\n",
+            "\u001b[0;31mURLError\u001b[0m                                  Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_6480/3855744956.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0murllib\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrequest\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m urllib.request.urlretrieve(\n\u001b[0m\u001b[1;32m      4\u001b[0m     \u001b[0;34m'https://hub.jovian.ml/wp-content/uploads/2020/08/climate.csv'\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m     \u001b[0;34m'climate.txt'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/urllib/request.py\u001b[0m in \u001b[0;36murlretrieve\u001b[0;34m(url, filename, reporthook, data)\u001b[0m\n\u001b[1;32m    238\u001b[0m     \u001b[0murl_type\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mpath\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0m_splittype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0murl\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    239\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 240\u001b[0;31m     \u001b[0;32mwith\u001b[0m \u001b[0mcontextlib\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mclosing\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0murlopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0murl\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mdata\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0mfp\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    241\u001b[0m         \u001b[0mheaders\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfp\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0minfo\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    242\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/urllib/request.py\u001b[0m in \u001b[0;36murlopen\u001b[0;34m(url, data, timeout, cafile, capath, cadefault, context)\u001b[0m\n\u001b[1;32m    213\u001b[0m     \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    214\u001b[0m         \u001b[0mopener\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0m_opener\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 215\u001b[0;31m     \u001b[0;32mreturn\u001b[0m \u001b[0mopener\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0murl\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mdata\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtimeout\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    216\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    217\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0minstall_opener\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mopener\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/urllib/request.py\u001b[0m in \u001b[0;36mopen\u001b[0;34m(self, fullurl, data, timeout)\u001b[0m\n\u001b[1;32m    513\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    514\u001b[0m         \u001b[0msys\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0maudit\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'urllib.Request'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mreq\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfull_url\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mreq\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mdata\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mreq\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mheaders\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mreq\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mget_method\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 515\u001b[0;31m         \u001b[0mresponse\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_open\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mreq\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mdata\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    516\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    517\u001b[0m         \u001b[0;31m# post-process response\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/urllib/request.py\u001b[0m in \u001b[0;36m_open\u001b[0;34m(self, req, data)\u001b[0m\n\u001b[1;32m    530\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    531\u001b[0m         \u001b[0mprotocol\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mreq\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mtype\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 532\u001b[0;31m         result = self._call_chain(self.handle_open, protocol, protocol +\n\u001b[0m\u001b[1;32m    533\u001b[0m                                   '_open', req)\n\u001b[1;32m    534\u001b[0m         \u001b[0;32mif\u001b[0m \u001b[0mresult\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/urllib/request.py\u001b[0m in \u001b[0;36m_call_chain\u001b[0;34m(self, chain, kind, meth_name, *args)\u001b[0m\n\u001b[1;32m    490\u001b[0m         \u001b[0;32mfor\u001b[0m \u001b[0mhandler\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mhandlers\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    491\u001b[0m             \u001b[0mfunc\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mgetattr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mhandler\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmeth_name\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 492\u001b[0;31m             \u001b[0mresult\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfunc\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m*\u001b[0m\u001b[0margs\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    493\u001b[0m             \u001b[0;32mif\u001b[0m \u001b[0mresult\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mnot\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    494\u001b[0m                 \u001b[0;32mreturn\u001b[0m \u001b[0mresult\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/urllib/request.py\u001b[0m in \u001b[0;36mhttps_open\u001b[0;34m(self, req)\u001b[0m\n\u001b[1;32m   1390\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1391\u001b[0m         \u001b[0;32mdef\u001b[0m \u001b[0mhttps_open\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mreq\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1392\u001b[0;31m             return self.do_open(http.client.HTTPSConnection, req,\n\u001b[0m\u001b[1;32m   1393\u001b[0m                                 context=self._context)\n\u001b[1;32m   1394\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.12/urllib/request.py\u001b[0m in \u001b[0;36mdo_open\u001b[0;34m(self, http_class, req, **http_conn_args)\u001b[0m\n\u001b[1;32m   1345\u001b[0m                           encode_chunked=req.has_header('Transfer-encoding'))\n\u001b[1;32m   1346\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mOSError\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0merr\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;31m# timeout error\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1347\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mURLError\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0merr\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1348\u001b[0m             \u001b[0mr\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mh\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mgetresponse\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1349\u001b[0m         \u001b[0;32mexcept\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mURLError\u001b[0m: <urlopen error [Errno -2] Name or service not known>"
+          ]
         }
       ]
     },
